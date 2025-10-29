@@ -1,11 +1,5 @@
-# reddit api projects
+# REDDIT API ADVANCED PROJECTS
 
-- This is a readme file for the api advanced intranet projecs
+- This is a readme file for the api advanced intranet projects
 
-### It uses import requests module to get access to the remote url links 
-
-# Task 0: How many subs?
-- file: 0-subs.py
-- Function: number_of _subscribbers(subreddit)
-- Returns the number of subscribbers for a given subreddit.
-- Returns 0 if subreddit is invalid.
+## It uses an import module request to access the remote url links and interacts with url links via get response
