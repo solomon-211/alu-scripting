@@ -63,4 +63,5 @@ def _print_counts(counts):
     sorted_counts = sorted(filtered.items(),
                            key=lambda x: (-x[1], x[0]))
     for word, count in sorted_counts:
-        print(f"{word}: {count}")
+        print("{}: {}".format(word, count))
+
