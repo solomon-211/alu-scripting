@@ -42,7 +42,8 @@ def count_words(subreddit, word_list, hot_list=None, after=None, counts=None):
             for word in word_list:
                 word_lc = word.lower()
                 # Count exact whole words only (split by spaces)
-                counts[word_lc] = counts.get(word_lc, 0) + title.split().count(word_lc)
+                current_count = counts.get(word_lc, 0)
+                counts[word_lc] = current_count + title.split().count(word_lc)
 
         after = data.get("after")
         if after:
